@@ -122,8 +122,10 @@ html,body{
 .page1 video{
 
     align-items: center;
-
-    max-height: 100%;
-    max-width: 100%;
+    align-self: center;
+    padding-left: 10vw;
+    max-height: 90%;
+    max-width: 90%;
+    margin-top: 10vw;
 
 }
