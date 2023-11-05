@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color:white;
+    /* because our website runs in dark mode
+     */
+    
+
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+
+.main{
+    background-color: #0F0D0D;
+
+}
+
+
+.page1{
+    height: 100vh;
+    /* vh is screen height vieweport height */
+    
+    width:100%;
+    /* width is according to parent element */
+
+
+
+}
+
+#nav{
+    height:80px;
+    width:100%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    /* display flex is used to make the elements in a row */
+    justify-content: space-between;
+    /* space between is used to give space between two elements */
+}
+#nav img{
+    height: 26px;
+    width: 50px;
+    margin-left: 50px;
+    /* margin left is used to give space from left */
+}
+
+#nav-part2{
+    display: flex;
+}
