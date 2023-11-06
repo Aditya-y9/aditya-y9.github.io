@@ -121,12 +121,21 @@ html,body{
     margin-left: 70vw;
 }
 .page1 video{
-
-    align-items: center;
-    align-self: center;
-    padding-left: 10vw;
-    max-height: 90%;
-    max-width: 90%;
+    width: 60%;
     margin-top: 10vw;
 
+    /* position relative to make the video responsive */
+    position: relative;
+    left: 50%;
+
+
+    /* to bring the element to center */
+    transform: translate(-50%,0);
+}
+
+.page2{
+    min-height: 100vh;
+    /* minimum height can exceed this min height */
+
+    width: 100%;
 }
