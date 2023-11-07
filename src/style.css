@@ -29,6 +29,12 @@ html,body{
     min-width:100vh;
     /* width is according to parent element */
 
+    position:relative;
+
+
+    z-index: 9;
+
+
 
 
 }
@@ -121,21 +127,59 @@ html,body{
     margin-left: 70vw;
 }
 .page1 video{
-    width: 60%;
+    width: 20%;
     margin-top: 10vw;
-
-    /* position relative to make the video responsive */
     position: relative;
     left: 50%;
-
-
-    /* to bring the element to center */
     transform: translate(-50%,0);
+    box-shadow: grey 0px 0px 20px 40px;
 }
 
 .page2{
-    min-height: 100vh;
-    /* minimum height can exceed this min height */
-
+    min-height: 300vh;
     width: 100%;
+    padding: 100px 5vw;
+
+}
+
+.page2 h1{
+    font-size: 7vw;
+    font-weight: 300;
+    font-family: PP mori;
+    color: red;
+}
+
+.page2-container{
+    height: 60%;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+.page2-left{
+    font-size: 28px;
+    font-weight: 300;
+    /* background-color: blue; */
+    width: 30%;
+}
+.page2-right{
+    font-size: 4vw;
+    font-weight: 300;
+    /* background-color: yellow; */
+    width: 30%;
+}
+
+.page2-right p{
+    font-size: 28px;
+}
+.page2-right button{
+    width: 100%;
+    border-radius: 50vw;
+    border: none;
+    color: aquamarine;
+    background-color: coral;
+    padding: 4px 0;
+    margin-top: 20px;
 }
