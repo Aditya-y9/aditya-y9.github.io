@@ -1,0 +1,56 @@
+h1{
+    color: green;
+    text-decoration: underline;
+    text-align: justify;
+}
+p{
+    color: red !important;
+    text-decoration: line-through;
+}
+button{
+    color: green;
+    background-color: yellow;
+    text-align: left;
+}
+/*
+text-align: left;
+text-align: right;
+text-align: center;
+text-align: justify;
+
+
+
+*/
+
+
+#element{
+    font-size: xx-large;
+}
+
+p{
+    color: blue;
+    text-decoration: line-through;
+    text-align: center;
+    background-color:aqua;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(246, 255, 0);
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    white-space: nowrap;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    vertical-align: baseline;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: blink;
+
+}
