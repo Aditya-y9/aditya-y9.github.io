@@ -76,7 +76,6 @@ html,body{
 #nav{
     height:80px;
     width:100%;
-    background-color: black;
     align-items: center;
     display: flex;
     /* display flex is used to make the elements in a row */
@@ -292,3 +291,42 @@ html,body{
     letter-spacing: 2px;
     text-shadow: 0 0 10px #000;
 }
+
+
+
+@keyframes rotate{
+    from{
+        rotate: 0deg;
+    }
+    50% {
+        scale : 1 1.5;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+#blob{
+    background-color: #fff;
+    height: 34vmax;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    animation: rotate 5s infinite;
+    opacity: 0.8;
+}
+
+#blur{
+    height: 100%;
+    width: 100%;
+    position : absolute;
+    z-index: 2;
+    backdrop-filter: blur(12vmax);
+}
+
+
+
