@@ -41,7 +41,20 @@ html,body{
 
 
 
+
 }
+
+.page1 h1{
+    color: white;
+}
+.page1 h2{
+    color: #fff;
+}
+.page1 h3{
+    color: #fff;
+}
+
+
 .page1 image{
     align-self: center;
     align-content: center;
