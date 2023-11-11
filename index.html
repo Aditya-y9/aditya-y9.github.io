@@ -14,8 +14,13 @@
     
 </head>
 <body>
+    <div id="preloader">
+        <img src="logo.gif" alt="">
+        <h1>Namaste!</h1>
+    </div>
     <div class="main">
         <div class="page1">
+
             <div id="nav">
                 <img src="logo.gif" alt="Aditya Yedurkar">
                 <div id="nav-part2">
@@ -29,6 +34,7 @@
 
                     </div>
                 </div>
+                
             </div>
             <h1>Hi, I'm Aditya Yedurkar
             </h1>
@@ -48,6 +54,16 @@
                 </div>
             </div>
             </div>
+        </div>
+            <div class="page3">
+                <h1>
+                    Contact Me!
+                </h1>
+                <div class="page3-part1">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQGS-T-0eIfTYQ/profile-displayphoto-shrink_800_800/0/1692588487729?e=2147483647&v=beta&t=XuIvgtSCEu0OTg-2qa6NV1UilQtnonY1xDTtcbrgq38" alt="">
+                    <video autoplay loop muted src="https://www.apple.com/105/media/us/mac/family/2023/1b2bbf5c-ddc5-44a1-9dfb-7a51c49143fa/anim/welcome/large_2x.mp4" alt="my video"></video>
+                </div>
+            </div>
         
     </div>
     
@@ -57,5 +73,16 @@
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
     
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function() {
+        setTimeout(function() {
+            loader.style.display = "none";
+        }, 1000); // 5000 milliseconds = 5 seconds
+    });
+</script>
+
+
+
 </body>
 </html>

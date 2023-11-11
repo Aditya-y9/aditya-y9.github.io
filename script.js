@@ -59,8 +59,8 @@ var tl2 = gsap.timeline({
         trigger:".page1 h1",
         scroller:".main",
         markers:true,
-        start:"top -120%",
-        end:"top 130%",
+        start:"top -115%",
+        end:"top 120%",
         scrub:3
     }
 })
