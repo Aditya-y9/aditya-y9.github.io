@@ -10,7 +10,7 @@
 
 }
 .page0{
-    min-height: 100vw;
+    min-height: 100vh;
     width: 100%;
 }
 html,body{
@@ -26,11 +26,11 @@ html,body{
 
 
 .page1{
-    min-height: 100vh;
+    min-height: 200vh;
     /* minimum height can exceed this min height */
     /* vh is screen height vieweport height */
     
-    min-width:100vh;
+    min-width:100vw;
     /* width is according to parent element */
 
     position:relative;
@@ -43,6 +43,8 @@ html,body{
 
 
 }
+
+
 
 .page1 h1{
     color: white;
@@ -84,14 +86,16 @@ html,body{
 
 }
 #nav img{
-    height: 5.5vw;
+    height: 10vh;
     width: 14vw;
     width: justify;
     margin-left:1vw;
-    margin-top: 2.5vw;
+    margin-top: 2.5vh;
     /* margin left is used to give space from left */
 
 }
+
+
 
 #nav-part2{
     display: flex;
@@ -136,7 +140,7 @@ html,body{
 
     font-family: PP mori;
     font-weight:500;
-    margin-top: 12vw;
+    margin-top: 12vh;
     margin-left: 6vw;
 
 
@@ -148,7 +152,7 @@ html,body{
     font-size: 5vw;
     font-weight: 300;
     font-family: PP mori;
-    margin-top:1vw;
+    margin-top:1vh;
     margin-left: 19vw;
 }
 
@@ -156,12 +160,12 @@ html,body{
     font-size: 3vw;
     font-weight: 100;
     font-family: PP mori;
-    margin-top:1vw;
+    margin-top:1vh;
     margin-left: 70vw;
 }
 .page1 video{
     width: 20%;
-    margin-top: 10vw;
+    margin-top: 35vh;
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
@@ -218,7 +222,7 @@ html,body{
 .page2-right p{
     font-size: 28px;
     color: #111;
-    line-height: 4vw;
+    line-height: 4vh;
 }
 .page2-left p{
     font: size 28px;
@@ -266,7 +270,7 @@ html,body{
 }
 
 #preloader img{
-    height: 10vw;
+    height: 10vh;
     width: 26vw;
     top: 50%;
     left : 60%;
