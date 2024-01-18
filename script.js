@@ -1,3 +1,12 @@
+var cursor = document.querySelector(".cursor")
+var main = document.querySelector(".main")
+main.addEventListener("mousemove",function(dets){
+    cursor.style.left = dets.x + "px"
+    cursor.style.top = dets.y + "px"
+}
+)
+
+
 function init() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -79,3 +88,5 @@ window.onpointermove = event => {
         top: `${clientY}px`
     },{duration: 1000, fill: "forwards"})
 }
+
+

@@ -20,13 +20,26 @@
         margin-top: 4vh;"src="logo.gif" alt="">
         <h1>Namaste!</h1>
     </div>
+    <div class="cursor"></div>
     <div class="main">
         <div id="blob"></div>
-        <div id="blur"></div>
+ 
         <div class="page1">
+
             <div id="nav">
                 <img src="logo.gif" alt="Aditya Yedurkar">
                 <div id="nav-part2">
+                    <button style="color: azure;">
+                        <div class="text" style="color: aliceblue;">
+                            <span>LinkedIn</span>
+                        </div>
+                        <div class="clone">
+                            <span>LinkedIn</span>
+                        </div>
+                        <svg width="20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
                     <h4>Home</h4>
                     <h4>Work</h4>
                     <h4>About</h4>
@@ -43,6 +56,7 @@
                 </div>
             </div>
         <div class="page1-container">
+            
             <div class="page1-left">
                 <h1>Hi, I'm Aditya Yedurkar</h1>
                 <h2>An Aspiring Software Developer</h2>
@@ -65,17 +79,115 @@
                     <button>About me</button>
                 </div>
             </div>
-            </div>
-        </div>
+    <div>
             <div class="page3">
+
+<div class="contact-section">
+    <h1>Contact Me!</h1>
+    <div class="contact-container">
+        <div class="contact-info">
+            <img src="https://media.licdn.com/dms/image/D4D03AQGS-T-0eIfTYQ/profile-displayphoto-shrink_800_800/0/1692588487729?e=2147483647&v=beta&t=XuIvgtSCEu0OTg-2qa6NV1UilQtnonY1xDTtcbrgq38" alt="Profile Picture">
+            <div class="contact-details">
+                <h2>Aditya Yedurkar</h2>
+                <p>Software Developer</p>
+                <p>Bombay, India</p>
+            </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .contact-section {
+        background-color: #f2f2f2;
+        padding: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-self: center;
+    }
+
+    .contact-info img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #ff0000, #0000ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        border : 5px solid limegreen;
+        margin: 0 auto; /* Add this line */
+    }
+
+    .contact-details,
+    .contact-form {
+        text-align: center;
+    }
+   .contact-details h2 {
+        margin: auto auto;
+    }
+
+    .contact-details p {
+        margin: 0 auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+
+    .contact-form textarea {
+        height: 150px;
+    }
+
+    .contact-form button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+</style>
+            </div>
                 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="aditya-yedurkar-curious" data-version="v1" ><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/aditya-yedurkar-curious?trk=profile-badge">Aditya Yedurkar</a></div>
-              
-                <h1>
-                    Contact Me!
-                </h1>
+    
                 <div class="page3-part1">
-                    <img src="https://media.licdn.com/dms/image/D4D03AQGS-T-0eIfTYQ/profile-displayphoto-shrink_800_800/0/1692588487729?e=2147483647&v=beta&t=XuIvgtSCEu0OTg-2qa6NV1UilQtnonY1xDTtcbrgq38" alt="">
                     <video autoplay loop muted src="https://www.apple.com/105/media/us/mac/family/2023/1b2bbf5c-ddc5-44a1-9dfb-7a51c49143fa/anim/welcome/large_2x.mp4" alt="my video"></video>
+                </div>
+
+                <div class="page4">
+
                 </div>
             </div>
         
@@ -99,7 +211,7 @@
     window.addEventListener("load", function() {
         setTimeout(function() {
             loader.style.display = "none";
-        }, 1000); // 5000 milliseconds = 5 seconds
+        }, 500); // 5000 milliseconds = 5 seconds
     });
 </script>
 
